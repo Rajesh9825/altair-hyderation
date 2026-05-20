@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-darkNavy: #1A2B3C;
+  --color-brand-primaryBlue: #0B72B9;
+  --color-brand-skyBlue: #C2E7FF;
+  --color-brand-iceBackground: #F4F9FC;
+  
+  --font-heading: "Montserrat", sans-serif;
+}
