@@ -44,7 +44,7 @@ export default function Navbar() {
           className="flex items-center h-full max-w-[180px] sm:max-w-[220px] transition-transform duration-200 hover:scale-[1.02]"
         >
           <img 
-            src="src\assets\Altair-logo-final-1.png" 
+            src="public\Altair-logo-final-1.png" 
             alt="Altair Food & Beverage Pvt. Ltd" 
             className="w-full h-auto object-contain max-h-[55px]"
             onError={(e) => {
