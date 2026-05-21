@@ -1,5 +1,5 @@
 import React from 'react';
-import footerLogo from '../assets/Altair-logo-final-1.png';
+import footerLogo from '../assets/Altair-Food-Beverage-Logo-Final.png';
 
 export default function Footer() {
   // Dynamic Current Year
@@ -25,7 +25,7 @@ export default function Footer() {
             <img
               src={footerLogo}
               alt="Altair Food & Beverage Pvt. Ltd"
-              className="w-full h-auto object-contain max-h-[50px]"
+              className="w-40 h-auto object-contain mt-0 mb-0 ml-5"
             />
 
           </div>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../assets/Altair-logo-final-1.png';
+import logo from '../assets/Altair-Food-Beverage-Logo-Final.png';
 
 export default function Navbar() {
   // Track active link state for the under-line animation slide
@@ -35,8 +35,8 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out ${
         isScrolled
-          ? 'bg-[#F4F9FC]/95 shadow-md h-16'
-          : 'bg-gradient-to-r from-[#F4F9FC]/90 to-transparent h-20'
+          ? 'bg-[#F4F9FC]/95 shadow-md h-20'
+          : 'bg-gradient-to-r from-[#F4F9FC]/90 to-transparent h-23'
       } backdrop-blur-md border-b border-[#C2E7FF]/20`}
     >
       <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
@@ -50,7 +50,7 @@ export default function Navbar() {
           <img
             src={logo}
             alt="Altair Food & Beverage Pvt. Ltd"
-            className="w-full h-auto object-contain max-h-[55px]"
+            className="w-full h-auto object-contain max-h-[90px]"
           />
         </a>
 
